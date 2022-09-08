@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/CSS.css">
+	<title>Our Photography</title>
+<style>
+#rig{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 0;
+	list-style: none;
+	background-color: none;
+}
+#rig li{
+	display: inline-block;
+	width: 25%;
+	vertical-align: middle;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.rig-cell{
+	margin: 12px;
+	border-radius: 5px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	padding: 16px;
+	border: none;
+	color: #555;
+	background-color: #d4d4d4;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.rig-cell h3{
+	font-size: 15px;
+	font-family: 'Streetvertising', sans-serif;
+	font-weight: normal;
+	margin-top: 5px;
+}
+
+.rig-img1{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/DOF-2 (RTL).png");
+	background-repeat: no-repeat;
+}
+.rig-img2{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/DOF-5 (RTL).png");
+	background-repeat: no-repeat;
+}
+.rig-img3{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/DOF-6 (RTL).png");
+	background-repeat: no-repeat;
+}
+.rig-img4{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/DOF-2 (RTS).png");
+	background-repeat: no-repeat;
+}
+.rig-img5{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/DOF-3 (RTS).png");
+	background-repeat: no-repeat;
+}
+.rig-img6{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/DOF-4 (RTS).png");
+	background-repeat: no-repeat;
+}
+.rig-img7{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/DOF-5 (RTS).png");
+	background-repeat: no-repeat;
+}
+.rig-img8{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/DOF-6 (RTS).png");
+	background-repeat: no-repeat;
+}
+.rig-img9{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/HUMAN INTEREST-2.png");
+	background-repeat: no-repeat;
+}
+.rig-img10{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/HUMAN INTEREST-3.png");
+	background-repeat: no-repeat;
+}
+.rig-img11{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/HUMAN INTEREST-4.png");
+	background-repeat: no-repeat;
+}
+.rig-img12{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/HUMAN INTEREST-5.png");
+	background-repeat: no-repeat;
+}
+.rig-img13{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/HUMAN INTEREST-6.png");
+	background-repeat: no-repeat;
+}
+.rig-img14{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/LANDSCAPE-2.png");
+	background-repeat: no-repeat;
+}
+.rig-img15{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/LANDSCAPE-3.png");
+	background-repeat: no-repeat;
+}
+.rig-img16{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/LANDSCAPE-4.png");
+	background-repeat: no-repeat;
+}
+.rig-img17{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/LANDSCAPE-5.png");
+	background-repeat: no-repeat;
+}
+.rig-img18{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/LANDSCAPE-6.png");
+	background-repeat: no-repeat;
+}
+.rig-img19{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/LANDSCAPE-6.png");
+	background-repeat: no-repeat;
+}
+.rig-img19{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/POI-1(2).png");
+	background-repeat: no-repeat;
+}
+.rig-img20{
+	display: block;
+	border: none;
+	width: 100%;
+	height: 0;
+	padding-top: 83.461538%;
+	background-size: cover;
+	background-color: white;
+	background-image: url("images/POI-3(2).png");
+	background-repeat: no-repeat;
+}
+.rig-overlay1{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+	transform: ;
+}
+#rig li:hover .rig-overlay1{
+	opacity: 0.5;
+}
+.rig-overlay2{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay2{
+	opacity: 0.5;
+	-webkit-transform: scale(1.2) rotate(1080deg);
+    -moz-transform: scale(1.2) rotate(1080deg);
+    -o-transform: scale(1.2) rotate(1080deg);
+    -ms-transform: scale(1.2) rotate(1080deg);
+    transform: scale(1.2) rotate(1080deg);
+}
+.rig-overlay3{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay3{
+	opacity: 0.5;
+	transform: rotate(60deg);
+}
+.rig-overlay4{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay4{
+	opacity: 0.5;
+	-ms-transform: translate(50px,400px);
+    -webkit-transform: translate(50px,400px);
+    transform: translate(50px,400px);
+}
+.rig-overlay5{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay5{
+	opacity: 0.5;
+	-ms-transform: scale(0.2, 2);
+    -webkit-transform: scale(0.2, 2);
+    transform: scale(0.2, 2);
+}
+.rig-overlay6{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay6{
+	opacity: 0.5;
+	-ms-transform: skewX(50deg);
+    -webkit-transform: skewX(50deg);
+    transform: skewX(50deg);
+}
+.rig-overlay7{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay7{
+	opacity: 0.5;
+	-ms-transform: skewY(10deg);
+    -webkit-transform: skewY(10deg);
+    transform: skewY(10deg);
+}
+.rig-overlay8{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay8{
+	opacity: 0.5;
+	-webkit-transform:rotate(360deg); 
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+.rig-overlay9{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay9{
+	opacity: 0.5;
+	-webkit-transform: scale(1.2) rotate(1080deg);
+	-moz-transform: scale(1.2) rotate(1080deg);
+	-o-transform: scale(1.2) rotate(1080deg);
+	-ms-transform: scale(1.2) rotate(1080deg);
+	transform: scale(1.2) rotate(1080deg);
+}
+.rig-overlay10{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay10{
+	opacity: 0.5;
+	transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+.rig-overlay11{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay11{
+	opacity: 0.5;
+	box-shadow: 3px 3px 6px rgba(0,0,0,1.5);
+    transform: rotate(-1deg);
+    -webkit-transform:  rotate(-1deg);
+    -o-transform:  rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+}
+.rig-overlay12{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay12{
+	opacity: 0.5;
+	border:8px solid #d6d6d6;
+}
+.rig-overlay13{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay13{
+	opacity: 0.5;
+	transform: rotate(90deg);
+}
+.rig-overlay14{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay14{
+	opacity: 0.5;
+	transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+.rig-overlay15{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay15{
+	opacity: 0.5;
+	-ms-transform: skewY(10deg);
+    -webkit-transform: skewY(10deg);
+    transform: skewY(10deg);
+}
+.rig-overlay16{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay16{
+	opacity: 0.5;
+	-webkit-transform:rotate(360deg); 
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+.rig-overlay17{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay17{
+	opacity: 0.5;
+	-ms-transform: scale(0.2, 2);
+    -webkit-transform: scale(0.2, 2);
+    transform: scale(0.2, 2);
+}
+.rig-overlay18{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay18{
+	opacity: 0.5;
+	border:14px solid #d6d6d6
+}
+.rig-overlay19{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay19{
+	opacity: 0.5;
+	-ms-transform: translate(50px,300px);
+    -webkit-transform: translate(50px,300px);
+    transform: translate(50px,300px);
+}
+.rig-overlay20{
+	position: absolute;
+	display: block;
+	top: 0;left: 0;bottom: 0;right: 0;
+	margin: auto;
+	background: white;
+	background-size: 50px 50px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: all 0.3s;
+}
+#rig li:hover .rig-overlay20{
+	opacity: 0.5;
+}
+
+@media(max-width: 1024px){
+	#rig li{width: 48%;}
+}
+@media(max-width: 720px){
+	#rig li{width: 98%;}
+}
+
+</style>
+</head>
+<body>
+	<div class="title">
+		<h2>Selamat Datang di Website Kami!</h2>
+		<h5>Di website ini kami akan menunjukkan beberapa foto yang kami potret beberapa hari terakhir ini.
+			<br>Kami berusaha sebaik mungkin untuk mendapatkan momen agar foto-foto di bawah ini memiliki cerita sendiri.
+			<br>Setiap foto yang dipotret memiliki filosofi masing-masing seperti foto-foto di bawah ini.
+			<br>Kami berharap kalian menikmati hasil dari pemrotetan kami.</h5>
+	</div>
+<ul id="rig">
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img1"></span>
+			<h3>Depth Of Field-Ruang Tajam Luas</h3>
+			<span class="rig-overlay1"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img2"></span>
+			<h3>Depth Of Field-Ruang Tajam Luas</h3>
+			<span class="rig-overlay2"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img3"></span>
+			<h3>Depth Of Field-Ruang Tajam Luas</h3>
+			<span class="rig-overlay3"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img4"></span>
+			<h3>Depth Of Field-Ruang Tajam Sempit</h3>
+			<span class="rig-overlay4"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img5"></span>
+			<h3>Depth Of Field-Ruang Tajam Sempit</h3>
+			<span class="rig-overlay5"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img6"></span>
+			<h3>Depth Of Field-Ruang Tajam Sempit</h3>
+			<span class="rig-overlay6"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img7"></span>
+			<h3>Depth Of Field-Ruang Tajam Sempit</h3>
+			<span class="rig-overlay7"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img8"></span>
+			<h3>Depth Of Field-Ruang Tajam Sempit</h3>
+			<span class="rig-overlay8"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img9"></span>
+			<h3>Human Interest</h3>
+			<span class="rig-overlay9"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img10"></span>
+			<h3>Human Interest</h3>
+			<span class="rig-overlay10"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img11"></span>
+			<h3>Human Interest</h3>
+			<span class="rig-overlay11"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img12"></span>
+			<h3>Human Interest</h3>
+			<span class="rig-overlay12"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img13"></span>
+			<h3>Human Interest</h3>
+			<span class="rig-overlay13"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img14"></span>
+			<h3>Landscape</h3>
+			<span class="rig-overlay14"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img15"></span>
+			<h3>Landscape</h3>
+			<span class="rig-overlay15"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img16"></span>
+			<h3>Landscape</h3>
+			<span class="rig-overlay16"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img17"></span>
+			<h3>Landscape</h3>
+			<span class="rig-overlay17"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img18"></span>
+			<h3>Landscape</h3>
+			<span class="rig-overlay18"></span>
+		</a>
+	</li>
+	<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img19"></span>
+			<h3>Point Of Interest</h3>
+			<span class="rig-overlay19"></span>
+		</a>
+	</li>
+<li>
+		<a class="rig-cell" href="#">
+			<span class="rig-img20"></span>
+			<h3>Point Of Interest</h3>
+			<span class="rig-overlay20"></span>
+		</a>
+	</li>
+</ul>
+</body>
+</html>

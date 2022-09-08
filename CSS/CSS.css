@@ -1,0 +1,16 @@
+*{
+	color: #484848;
+	padding: 0;
+	margin: 0;
+}
+.title h2 {
+	text-align: center;
+	margin-top: 40px;
+	font-family: '';
+}
+.title h5 {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-family: 'Dosis'
+}
